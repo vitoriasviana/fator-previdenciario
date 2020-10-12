@@ -3,7 +3,7 @@
 
 sexo = input("Informe o sexo [M/F]: ")
 idade = int(input("Digite a idade que você começou a trabalhar: "))
-#Soma = idade que iniciou a contibuir + tempo de contribuição inicial (0)
+#Soma = idade que iniciou a contribuir + tempo de contribuição inicial (0)
 soma = idade
 
 #Define o a soma final (idade + tempo de contribuição) de acordo com o sexo informado
@@ -16,4 +16,4 @@ while soma <= tempo:
     soma += 2
 
 #Mostra o texto na tela
-print(f"Você poderá se aposentar com {idade} anos de idade")
+print ("Você poderá se aposentar com %d anos de idade" %idade)
