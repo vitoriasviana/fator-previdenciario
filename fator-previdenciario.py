@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 sexo = input("Informe o sexo [M/F]: ")
-idade = int(input("Digite a idade que você começou a trabalhar: "))
+idade = int(input("Digite a idade com a qual você começou a trabalhar: "))
 #Soma = idade que iniciou a contribuir + tempo de contribuição inicial (0)
 soma = idade
 
